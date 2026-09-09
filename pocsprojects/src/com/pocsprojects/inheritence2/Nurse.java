@@ -1,6 +1,7 @@
 package com.pocsprojects.inheritence2;
 
 public class Nurse extends PersonImpl{
+	
 	@Override
 	public double getConsultationFee() {
 	    return 200;
@@ -9,7 +10,6 @@ public class Nurse extends PersonImpl{
 	public static void main(String[] args) {
 		
 		Doctor d = new Doctor();
-		
 		
 		System.out.println("apppoinment : " + d.appoinment());
 		System.out.println("consulation fee : " + d.getConsultationFee());
